@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1BF4FB642DB3CAC50038A4F8 /* WeatherApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeatherApp;
-			sourceTree = "<group>";
-		};
 		1BF4FB752DB3CAC60038A4F8 /* WeatherAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WeatherAppTests;
@@ -43,6 +38,11 @@
 		1BF4FB7F2DB3CAC60038A4F8 /* WeatherAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		1BF4FBB42DB3CF730038A4F8 /* WeatherApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WeatherApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		1BF4FB592DB3CAC50038A4F8 = {
 			isa = PBXGroup;
 			children = (
-				1BF4FB642DB3CAC50038A4F8 /* WeatherApp */,
+				1BF4FBB42DB3CF730038A4F8 /* WeatherApp */,
 				1BF4FB752DB3CAC60038A4F8 /* WeatherAppTests */,
 				1BF4FB7F2DB3CAC60038A4F8 /* WeatherAppUITests */,
 				1BF4FB632DB3CAC50038A4F8 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1BF4FB642DB3CAC50038A4F8 /* WeatherApp */,
+				1BF4FBB42DB3CF730038A4F8 /* WeatherApp */,
 			);
 			name = WeatherApp;
 			packageProductDependencies = (
